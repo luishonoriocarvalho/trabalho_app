@@ -16,7 +16,7 @@ export default function MarketScreen({ navigation }) {
   }, [pagina]);
 
   const fetchAcoes = async () => {
-    const apiKey = 'TDIKAPPBZH9CP2AU'; // Sua chave de API Alpha Vantage
+    const apiKey = ''; // Sua chave de API Alpha Vantage
     const acoesSelecionadas = simbolos.slice((pagina - 1) * acoesPorPagina, pagina * acoesPorPagina);
 
     try {
